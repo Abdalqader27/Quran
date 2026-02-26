@@ -28,7 +28,12 @@ class FullPlayerPage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.keyboard_arrow_down, size: 28),
+          icon: Icon(
+            Theme.of(context).platform == TargetPlatform.iOS
+                ? Icons.arrow_back_ios_new_rounded
+                : Icons.arrow_back_rounded,
+            size: 22,
+          ),
           onPressed: () => Navigator.of(context).maybePop(),
         ),
       ),
