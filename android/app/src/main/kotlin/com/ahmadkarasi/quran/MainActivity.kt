@@ -1,4 +1,4 @@
-package com.ahmad_karasi.quran
+package com.ahmadkarasi.quran
 
 import com.ryanheise.audioservice.AudioServiceActivity
 

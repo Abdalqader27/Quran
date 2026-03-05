@@ -1,7 +1,7 @@
 name: quran_app
 description: "A new Flutter project."
 publish_to: 'none'
-version: 1.0.3+3
+version: 1.0.4+4
 
 environment:
   sdk: ^3.10.3
@@ -52,7 +52,6 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/icons/
     - assets/images/
     - assets/audio/audio_urls.json
     - assets/splash/Splash Screen app.jpg
